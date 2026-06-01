@@ -1,0 +1,15 @@
+# FER AI — Dependencias Backend
+# Instalá con: pip install -r requirements.txt
+
+# Reconocimiento de voz (STT)
+SpeechRecognition==3.10.4
+PyAudio==0.2.14
+
+# Texto a voz (TTS)
+pyttsx3==2.90
+
+# HTTP para comunicarse con Ollama
+requests==2.31.0
+
+# Variables de entorno (por si se necesitan en el futuro)
+python-dotenv==1.0.0
